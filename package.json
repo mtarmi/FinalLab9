@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "translation",
+=======
+  "name": "quiz-app",
+>>>>>>> 04fb4c75c45953e6df2c4669b7542f06b30b982c
   "version": "0.1.0",
   "private": true,
   "dependencies": {

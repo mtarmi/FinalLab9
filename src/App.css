@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,9 +38,66 @@ button {
   border: none;
   background-color: 	#40E0D0;
   color: #fff;
+=======
+  box-sizing: border-box;
+  background-color: 	#DB7093;
+  background-image: url(https://i.pinimg.com/736x/16/ca/30/16ca306373adb160d2ac4eb2d1059225.jpg);
+  background-size: cover; /* Makes image cover the whole page */
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #FFC0CB;
+}
+
+h1 {
+  text-align: center;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.option {
+  padding: 10px;
+  border: 1px solid #FF00FF;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #EE82EE;
+}
+
+.result {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #BA55D3;
+  color: white;
+  border-radius: 3px;
+>>>>>>> 04fb4c75c45953e6df2c4669b7542f06b30b982c
   cursor: pointer;
 }
 
 button:hover {
+<<<<<<< HEAD
   background-color: #AFEEEE;
+=======
+  background-color: #FF1493;
+>>>>>>> 04fb4c75c45953e6df2c4669b7542f06b30b982c
 }
